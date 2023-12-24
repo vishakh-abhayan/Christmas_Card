@@ -260,7 +260,7 @@ body {
 p {
   font-family: "Brush Script MT", cursive;
   color: #333;
-  /* font-size: 17px; */
+  font-size: 17px;
 }
 
 .name {
@@ -441,10 +441,10 @@ p {
   --input-focus: #2d8cf0;
   --font-color: #323232;
   --font-color-sub: #666;
-  --bg-color: beige;
+  --bg-color: rgb(245, 220, 230);
   --main-color: black;
   padding: 20px;
-  background: lightblue;
+  background: rgb(254, 254, 254);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -453,6 +453,10 @@ p {
   border-radius: 5px;
   border: 2px solid var(--main-color);
   box-sizing: border-box;
+}
+
+.form button {
+  background-color: rgb(238, 130, 130);
 }
 
 .input {
@@ -474,7 +478,7 @@ p {
   height: 40px;
   border-radius: 5px;
   border: 2px solid var(--main-color);
-  background-color: violet;
+  background-color: rgb(238, 130, 130);
   box-shadow: 2px 2px var(--main-color);
   font-size: 15px;
   font-weight: 600;
@@ -639,7 +643,7 @@ p {
   height: 12%;
   background: var(--eyes);
   border-radius: 50%;
-  animation: blink 5s infinite linear;
+  animation: blink 0.5s infinite linear;
 }
 
 .eye + .eye {
@@ -683,7 +687,7 @@ p {
   border-radius: 100% 10% 100% 0;
   transform-origin: top right;
   transform: translate(-100%, 0) rotate(25deg);
-  animation: moveMustache 7s infinite linear;
+  animation: moveMustache 0.5s infinite linear;
 }
 
 .mustache + .mustache {
@@ -691,7 +695,7 @@ p {
   border-radius: 10% 100% 0 100%;
   transform-origin: top left;
   transform: rotate(-25deg);
-  animation: moveMustache2 7s infinite linear;
+  animation: moveMustache2 0.5s infinite linear;
 }
 
 .hat {
